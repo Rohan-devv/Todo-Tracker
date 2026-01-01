@@ -41,6 +41,7 @@ function addTodo(){
     } 
 
     todos.push({text: text, completed: false})
+    input.value = ''
     saveTodo()
     renderTodos()
 
