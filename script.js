@@ -18,7 +18,7 @@ function loadTodos() {
 
 
 function saveTodo(){
-    localStorage.setItem("todos",JSON.stringify(todos))
+    localStorage.setItem("todos", JSON.stringify(todos))
 }
 
 function renderTodos(){
