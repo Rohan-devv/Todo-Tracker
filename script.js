@@ -96,6 +96,8 @@ input.addEventListener('keydown',function(e){
 })
 
 loadTodos()
+// agar hai to show to karo pehle wale 
+renderTodo()
 
 
 
